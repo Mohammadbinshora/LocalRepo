@@ -8,7 +8,41 @@ h1 {
 
 body
 {
-    background-color: rgb(237, 119, 17);
+    background-color: rgb(245, 244, 243);
     font-family: Arial, sans-serif;
     margin: 20px;
+}
+button {
+    background-color: rgb(13, 13, 216);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#headingone {
+    color: rgb(36, 224, 52);
+}
+#headingtwo {
+    color: rgb(18, 231, 234);
+}
+#box {
+    background-color: rgb(37, 15, 200);
+    border: 2px solid black;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+div text align :left
+{
+    text-align: left
+
+    ;
+}   
+p {
+    text-decoration: underline;
+}
+p {
+    font-family: cursive;
 }
