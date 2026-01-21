@@ -1,48 +1,21 @@
-h1 { 
-    color: green; 
-    font-size: 40px;    
-
-
-
+*{
+    padding: 0%;
+    margin: 0%;
+    color: white;
 }
 
-body
-{
-    background-color: rgb(245, 244, 243);
-    font-family: Arial, sans-serif;
-    margin: 20px;
+#navbar {
+    height : 60px;
+    background-color: #0f1111;
 }
 button {
-    background-color: rgb(13, 13, 216);
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    color: #f08804;
 }
-#headingone {
-    color: rgb(36, 224, 52);
+#logo {
+    color: #f08804;
+    font-size: 25px;
 }
-#headingtwo {
-    color: rgb(18, 231, 234);
-}
-#box {
-    background-color: rgb(37, 15, 200);
-    border: 2px solid black;
-    padding: 15px;
-    margin-top: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-div text align :left
-{
-    text-align: left
-
-    ;
-}   
-p {
-    text-decoration: underline;
-}
-p {
-    font-family: cursive;
+a {
+    margin-right: 200px;
+    text-decoration: none;
 }
