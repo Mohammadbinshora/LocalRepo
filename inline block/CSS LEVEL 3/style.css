@@ -1,7 +1,56 @@
-div {
+
+body {
+    text-align: center;
+}
+
+
+
+   #container {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  
+    border: 2px solid black;
+
+   }
+
+   .box1 {
+    background-color: lightblue;
     height: 100px;
-    width: 100px;   
-    background-image: url(earth.jpg);
-    background-size: cover;
-    color: #ffffff;
-}   
+    width: 100px;
+   display: inline-block;
+    border: 2px solid black;
+    flex: shrink 3;
+   }
+
+   .box2 {
+    background-color: lightgreen;
+    height: 100px;
+    width: 100px;
+   display: inline-block;
+    border: 2px solid black;
+   }
+    .box3 {
+     background-color: lightcoral;
+     height: 100px;
+    width: 100px;
+   display: inline-block;
+    border: 2px solid black;
+    }
+    .box4 {
+     background-color: lightgoldenrodyellow;
+     height: 100px;
+    width: 100px;
+   display: inline-block;
+    border: 2px solid black;
+    }
+    .box5 {
+     background-color: lightpink;
+     height: 100px;
+    width: 100px;
+   display: inline-block;
+    border: 2px solid black;
+    }
