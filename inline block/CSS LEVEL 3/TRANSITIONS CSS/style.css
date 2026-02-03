@@ -1,0 +1,26 @@
+#div {
+    height: 100px;
+    width: 100px;
+    background-color: magenta;
+    border: 2px solid black;
+}
+
+@media (width : 600px) {
+    #div {
+        background-color: yellow;
+        transition: background-color 2s ease-in-out;
+    }
+}
+
+@media (max-width : 600px) {
+    #div {
+        background-color: cyan;
+        transition: background-color 2s ease-in-out;
+    }
+}
+
+#div:hover {
+    background-color: lime;
+   
+    color: blanchedalmond;
+}
